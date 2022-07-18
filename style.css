@@ -1,0 +1,77 @@
+body {
+    overflow-x: hidden;
+}
+
+.search {
+    height: 45px;
+}
+
+.first-link {
+    font-size: xx-large;
+}
+
+.horizontal-scroll {
+    overflow-x: scroll;
+}
+
+.carousel-control-prev-icon {
+    color: black;
+}
+
+.payment {
+    width: 96px;
+    height: 64px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.social {
+    color: black;
+    font-size: 35px;
+    margin: 0 15px;
+}
+
+.foot-copy {
+    font-size: 12px;
+    margin: 0;
+}
+
+.del-rate {
+    font-size: 10px;
+}
+
+.products {
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.products::-webkit-scrollbar {
+    display: none;
+}
+
+
+.left-btn {
+    position: absolute;
+    top: 31%;
+    left: 6%;
+    z-index: 2;
+    font-size: 20px;
+    background-color: white;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.right-btn {
+    position: absolute;
+    right: 6%;
+    top: 31%;
+    z-index: 2;
+    font-size: 20px;
+    background-color: white;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
